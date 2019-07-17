@@ -1,6 +1,12 @@
 const isGood = (soldierType) => {
   // TODO: return `true` if the soldierType is Good.
   // Hint: Hobbits, Elves, Dwarves and Eagles are Good
+  var  arrayLord = ["Hobbits", "Elves", "Dwarves" , "Eagles"];
+  arrayLord.forEach(function(soldier) {
+    if (soldier != soldierType) {
+      return false;}
+  });
+  return true;
 };
 
 const buildSoldierMap = (battlefield) => {
