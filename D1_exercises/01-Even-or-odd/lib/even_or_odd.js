@@ -2,9 +2,9 @@ const evenOrOdd = (number) => {
 
   // TODO: this should return "even" if the number is even, "odd" otherwise
   if (number%2 == 0) {
-    return 'even';
- }
- return 'odd'
+    return "even";
+  }
+  return "odd";
 
 };
 
